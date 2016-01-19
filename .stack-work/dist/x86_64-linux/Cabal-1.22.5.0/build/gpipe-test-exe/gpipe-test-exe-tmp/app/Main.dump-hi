@@ -1,0 +1,1661 @@
+
+==================== FINAL INTERFACE ====================
+2016-01-19 17:02:44.230543 UTC
+
+interface main@main:Main 7103
+  interface hash: ecd36de9b6c869c062aa0abb11792b5a
+  ABI hash: 8dec2c9f48cb36dfe2b57c801454ddc7
+  export-list hash: 783223eba17d79ee35a632ff03132bb9
+  orphan hash: 0ea8eccb53932381fe219c906ee485fa
+  flag hash: 42a81b58951a4fe976b044e087b862aa
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.funk
+  Main.getJuicyPixel
+  Main.getZ
+  Main.light
+  Main.loop
+  Main.main
+  Main.makeSide
+  Main.matrixScale
+  Main.proj
+  Main.ShaderEnvironment{Main.ShaderEnvironment Main.primitives Main.rasterOptions}
+module dependencies:
+package dependencies: Boolean-0.2.3@Boole_AQw96tEQbS14h4CU6tCStK
+                      GLFW-b-1.4.7.3@GLFWb_FHRXwmm75LSJpr09z80ACc
+                      GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i
+                      GPipe-GLFW-1.2.1@GPipe_5lGxcLTs728H75yJFKKghH
+                      JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI
+                      StateVar-1.1.0.2@State_DSn4lJ243Jb9tSgAn8vrLd
+                      adjunctions-4.2.2@adjun_9Kk2NWstKji8V8wFATFCjT
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA base-4.8.2.0
+                      base-orphans-0.4.5@baseo_B5AdUEHv8bK2wv2ByiV6pH
+                      bifunctors-5.1@bifun_1GbgYgEE8iuGD3vV0QzeLR
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      bindings-GLFW-3.1.1.4@bindi_J6f6VIxxGCeIbaTboTJlxo
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      bytes-0.15.1@bytes_7XQPTohlV67AM60DIFxNk2
+                      cereal-0.4.1.1@cerea_GskkwdKSWUU2PP8FxH5aP8
+                      comonad-4.2.7.2@comon_KiCA78WKibNI21xQiUHKTH
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      contravariant-1.3.3@contr_DCDVBp8Cqxf3xlhnBAJbDy
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      distributive-0.4.4@distr_5BNo03qgHJKJMay3jH591c
+                      exception-transformers-0.4.0.2@excep_2KXMCu3ZTax7vYMAg1z8SM
+                      exceptions-0.8.0.2@excep_4vYwHtqpI6VHuGNdUrX8YB
+                      fixed-0.2.1.1@fixed_ByTlPuXIaPTB7THXhnn80n
+                      free-4.12.1@free_11Xg2nbTe7ICr56vHkyy6T ghc-prim-0.4.0.0
+                      gl-0.7.7@gl_8feL1KNX30C7cRvC5KMerD
+                      half-0.2.2.2@half_50fvm71cCuH9cBRUDB8f6O
+                      hashable-1.2.3.3@hasha_IaQA1SDHWk38xS0I3H2vFd
+                      hashtables-1.2.1.0@hasht_EhHgAdZqHFzJ2yveRIa43o integer-gmp-1.0.0.0
+                      kan-extensions-4.2.3@kanex_3lxnnsIj0NS0dmiChA6sMl
+                      lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2
+                      linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      prelude-extras-0.4.0.2@prelu_FI7eJ4y06ZE2BMrahAMEn9
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      profunctors-5.1.2@profu_7UkM6SyoW2SFy984HVrZb9
+                      reflection-2.1@refle_55XoptJVJyp5ClXAb8xw7F
+                      scientific-0.3.4.4@scien_JFBiyTx55sAHqQuoa5wc8T
+                      semigroups-0.18.0.1@semig_GXxermbDTTl2z4Dw4lLOWS
+                      semigroupoids-5.0.0.4@semig_KbvYPIIoT3IE7QqzxFjQwg
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      tagged-0.8.2@tagge_LsPQD6UphhxLXSI5S11irM template-haskell-2.10.0.0
+                      text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unordered-containers-0.2.5.1@unord_AVCiZNWwoYY6sQkLg2Yoz3
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Orphans
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.3.3@hasha_IaQA1SDHWk38xS0I3H2vFd:Data.Hashable.Generic
+         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Instances
+         reflection-2.1@refle_55XoptJVJyp5ClXAb8xw7F:Data.Reflection
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Lazy
+         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: Boolean-0.2.3@Boole_AQw96tEQbS14h4CU6tCStK:Data.Boolean
+                         GLFW-b-1.4.7.3@GLFWb_FHRXwmm75LSJpr09z80ACc:Graphics.UI.GLFW.Types
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Buffer
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Expr
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Format
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.FragmentStream
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Orphans
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.PrimitiveStream
+                         GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Uniform
+                         JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI:Codec.Picture.Tga
+                         JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI:Codec.Picture.Tiff
+                         JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI:Codec.Picture.Types
+                         adjunctions-4.2.2@adjun_9Kk2NWstKji8V8wFATFCjT:Data.Functor.Rep
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         base-4.8.2.0:GHC.TypeLits
+                         bytes-0.15.1@bytes_7XQPTohlV67AM60DIFxNk2:Data.Bytes.Get
+                         bytes-0.15.1@bytes_7XQPTohlV67AM60DIFxNk2:Data.Bytes.Signed
+                         bytes-0.15.1@bytes_7XQPTohlV67AM60DIFxNk2:Data.Bytes.VarInt
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         kan-extensions-4.2.3@kanex_3lxnnsIj0NS0dmiChA6sMl:Data.Functor.Yoneda
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.At
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.Internal.Indexed
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.Internal.Zoom
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.Reified
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.Tuple
+                         lens-4.13@lens_3Jg4xJ0CuGJ3Mu520zgML2:Control.Lens.Wrapped
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Affine
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Plucker
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Quaternion
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V0
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V1
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V2
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V3
+                         linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V4
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         profunctors-5.1.2@profu_7UkM6SyoW2SFy984HVrZb9:Data.Profunctor.Rep
+                         semigroups-0.18.0.1@semig_GXxermbDTTl2z4Dw4lLOWS:Data.List.NonEmpty
+                         semigroups-0.18.0.1@semig_GXxermbDTTl2z4Dw4lLOWS:Data.Semigroup
+                         tagged-0.8.2@tagge_LsPQD6UphhxLXSI5S11irM:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text
+                         text-1.2.2.0@text_5c7VCmRXJenGcMPs3kwpkI:Data.Text.Lazy
+                         unordered-containers-0.2.5.1@unord_AVCiZNWwoYY6sQkLg2Yoz3:Data.HashMap.Base
+                         unordered-containers-0.2.5.1@unord_AVCiZNWwoYY6sQkLg2Yoz3:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  GLFW-b-1.4.7.3@GLFWb_FHRXwmm75LSJpr09z80ACc:Graphics.UI.GLFW abe2e4b2676ec5afd0901a28b4f83411
+import  -/  GLFW-b-1.4.7.3@GLFWb_FHRXwmm75LSJpr09z80ACc:Graphics.UI.GLFW.Types b6935cefbd35a590bce68450053ee2cc
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe a42d0dbbd6f70bcc4daa7d8d9f521e36
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Buffer 219e5f356899c292f1c275c247063b06
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Context 6860a38f3b5fc0a14ac360950a552b9e
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Expr f2a745f94505528a2cb2d47ef9311bef
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Format 4b7d30fa51c6e842ed6985c28a175476
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.FragmentStream 0fd79e1327a93ee08b00d966d8f37374
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.FrameBuffer 14a0dc5b698b7b432fc64864d4d8bbd1
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.PrimitiveArray 4888a16417d3ede4d815af50707dbbb0
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.PrimitiveStream efd7d71bce6719361165c3220eeb1867
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Shader 90a17aafa4eb8f93c6d5104720a41914
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Texture 0ef4c5a50e62c5c3b5e3d46bb26dd1bb
+import  -/  GPipe-2.1.5@GPipe_0G87M4fD9FqARHtg1z9g0i:Graphics.GPipe.Internal.Uniform 1f295b5bbd77bbc76f3b8a47932c8ff7
+import  -/  GPipe-GLFW-1.2.1@GPipe_5lGxcLTs728H75yJFKKghH:Graphics.GPipe.Context.GLFW c2dac5df6697e2d747b057032437d39d
+import  -/  GPipe-GLFW-1.2.1@GPipe_5lGxcLTs728H75yJFKKghH:Graphics.GPipe.Context.GLFW.Input 944e104bfb035ef0d60cfcafc0532b4b
+import  -/  GPipe-GLFW-1.2.1@GPipe_5lGxcLTs728H75yJFKKghH:Graphics.GPipe.Context.GLFW.Resource 8ec8fe5a253ef2c4c5a07852f28f6108
+import  -/  GPipe-GLFW-1.2.1@GPipe_5lGxcLTs728H75yJFKKghH:Graphics.GPipe.Context.GLFW.Unsafe 131912992d14f5621535540d7b424743
+import  -/  JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI:Codec.Picture 6d8fa8525e7755a513d9c27523fa07f8
+import  -/  JuicyPixels-3.2.6.4@Juicy_JTGiO3M4ihi8v9CSsCRlYI:Codec.Picture.Types 9c36378a353ae93ec0417d62e1e5331a
+import  -/  base-4.8.2.0:Control.Applicative a8ebf5ad4932b411ad7725da68be9801
+import  -/  base-4.8.2.0:Control.Monad 480c5067477275068c9b98be08410df9
+import  -/  base-4.8.2.0:Data.Either e8724afd65fd432cfe9a54014f5f762d
+import  -/  base-4.8.2.0:Data.Functor 5c701b0af1708f0192a25dfe14ce6274
+import  -/  base-4.8.2.0:Data.IORef 976e22a2a5bee98653c6ebd18a5d0d2f
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Enum debc6de3086023a15993ab0cecffb90b
+import  -/  base-4.8.2.0:GHC.Float e532d434ec2447d809887c0fca1d78a5
+import  -/  base-4.8.2.0:GHC.IORef 214f24404788140014fb59d5413cb1a5
+import  -/  base-4.8.2.0:GHC.Num 9f42750c866f5832ca565146bd660c60
+import  -/  base-4.8.2.0:GHC.Real 1281efa9baf803bc7859d7efb89a38b3
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  ghc-prim-0.4.0.0:GHC.Types 6b27fb3fdbd0e3f0925a4496c66513bb
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear c17c9da0ae62cdca41ece3113f0e08e6
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Matrix c67cfbd54e5d385b9ca384d43d512acc
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Metric 30a77a716c219e044214d5b648ee7dbb
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Projection cd88d9d1c4e796533c5aab6430a5a897
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.Quaternion 10e1f4198c7f043e47d8145645883063
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V2 f16c43abac24c1b574dfbcefc3af9f43
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V3 2e4b06b5840523738077c2976eba150c
+import  -/  linear-1.20.3@linea_IRh49ZoSHE58vzvKlclJYl:Linear.V4 c25b2d015d63df0c8921650baf0372fe
+import  -/  transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.IO.Class 37487179a2f5eb2ea7922b911abcae56
+483f701e080b04eea6adb19c23c2e771
+  $s$fBufferFormat(,) ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+       Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                     Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$ctoBuffer
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Graphics.GPipe.Internal.Buffer.$fBufferFormatB3
+                     Graphics.GPipe.Internal.Buffer.$fBufferFormatB3)
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat -}
+7445073de6cb962568e91b2f93c5c86b
+  $s$fBufferFormat(,)1 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+       Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V4.V4
+                       (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                     Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$ctoBuffer
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                     @ (Linear.V3.V3
+                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormat(,)3
+                     Main.$s$fBufferFormat(,)2)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cgetGlPaddedFormat
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                     @ (Linear.V3.V3
+                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormat(,)3
+                     Main.$s$fBufferFormat(,)2)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cpeekPixel
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                     @ (Linear.V3.V3
+                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormat(,)3
+                     Main.$s$fBufferFormat(,)2)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cgetGlPaddedFormat
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                     @ (Linear.V3.V3
+                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormat(,)3
+                     Main.$s$fBufferFormat(,)2) -}
+bf6e494042a5216809ecff2f94690957
+  $s$fBufferFormat(,)2 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fBufferFormat(,)_$s$fBufferFormatV3 -}
+866d9a16db3cc80cd5afadd699300cfe
+  $s$fBufferFormat(,)3 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fBufferFormat(,)_$s$fBufferFormatV4 -}
+4e8ce9a13737945091daa40d17dec676
+  $s$fBufferFormat(,)4 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+       (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+        Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+                     (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$ctoBuffer
+                     @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float)
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                        Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Graphics.GPipe.Internal.Buffer.$fBufferFormatB2
+                     Main.$s$fBufferFormat(,)5)
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat1
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel1
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat1 -}
+c80925e229a356d389b15bc9572ec5df
+  $s$fBufferFormat(,)5 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+       Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fBufferFormat(,) -}
+44f683db1c86b537521631d7bb5975a7
+  $s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat ::
+    (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+     Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+    -> Graphics.GL.Types.GLenum
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)2
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+6db49c5ff7f7d89ac29d5b5c46610db1
+  $s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat1 ::
+    (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+     (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+    -> Graphics.GL.Types.GLenum
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)2
+                   @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float)
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+dfcfc864f75abf733d87a4eff310461d
+  $s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel ::
+    (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+     Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+    -> GHC.Ptr.Ptr ()
+    -> GHC.Types.IO
+         (Graphics.GPipe.Internal.Buffer.HostFormat
+            (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+             Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)1
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+3d0735e75167a6bbe5348e7005bd5df1
+  $s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel1 ::
+    (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+     (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+    -> GHC.Ptr.Ptr ()
+    -> GHC.Types.IO
+         (Graphics.GPipe.Internal.Buffer.HostFormat
+            (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+             (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+              Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)1
+                   @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float)
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+80721211785df7fe11aeeef62dbb67bf
+  $s$fBufferFormat(,)_$s$fBufferFormatV3 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V3.V3
+                       (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatV3_$ctoBuffer
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Graphics.GPipe.Internal.Buffer.$fBufferFormatB3)
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV3_$cgetGlPaddedFormat
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV3_$cpeekPixel
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV3_$cgetGlPaddedFormat -}
+6e41b3b3780bad821cec4973fae96e97
+  $s$fBufferFormat(,)_$s$fBufferFormatV3_$cgetGlPaddedFormat ::
+    Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+    -> Graphics.GL.Types.GLenum
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormatV18
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+cfb14286d63af5ba7f06b171d98b0d93
+  $s$fBufferFormat(,)_$s$fBufferFormatV3_$cpeekPixel ::
+    Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+    -> GHC.Ptr.Ptr ()
+    -> GHC.Types.IO
+         (Graphics.GPipe.Internal.Buffer.HostFormat
+            (Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormatV17
+                   @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)) -}
+fdf8635641cdf1855b90a60ba6c40e45
+  $s$fBufferFormat(,)_$s$fBufferFormatV4 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V4.V4
+                       (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatV4_$ctoBuffer
+                     @ (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)
+                     Graphics.GPipe.Internal.Buffer.$fBufferFormatB4)
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV4_$cgetGlPaddedFormat
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV4_$cpeekPixel
+                  Main.$s$fBufferFormat(,)_$s$fBufferFormatV4_$cgetGlPaddedFormat -}
+24492233416f5aa062eca46ac1bd8b22
+  $s$fBufferFormat(,)_$s$fBufferFormatV4_$cgetGlPaddedFormat ::
+    Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)
+    -> Graphics.GL.Types.GLenum
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormatV20
+                   @ (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)) -}
+df80815500c79f089e7917a353fd51dc
+  $s$fBufferFormat(,)_$s$fBufferFormatV4_$cpeekPixel ::
+    Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)
+    -> GHC.Ptr.Ptr ()
+    -> GHC.Types.IO
+         (Graphics.GPipe.Internal.Buffer.HostFormat
+            (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)))
+  {- Strictness: b,
+     Unfolding: InlineRule (0, True, True)
+                (Graphics.GPipe.Internal.Buffer.$fBufferFormatV19
+                   @ (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)) -}
+2fa1fd2bcc73d8c2085d83acfd154d80
+  $s$fBufferFormatUniform ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Graphics.GPipe.Internal.Buffer.Uniform
+         (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+          Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.GPipe.Internal.Buffer.Uniform
+                       (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                        Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatUniform_$ctoBuffer
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                        Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormatUniform1)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatUniform_$cgetGlPaddedFormat
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                        Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormatUniform1)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatUniform_$cpeekPixel
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                        Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormatUniform1)
+                  (Graphics.GPipe.Internal.Buffer.$fBufferFormatUniform_$cgetGlPaddedFormat
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                        Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormatUniform1) -}
+457cb24ba06c8fe99a67b3c402b06bf1
+  $s$fBufferFormatUniform1 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+       Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fBufferFormat(,)1 -}
+d52935831cb776c0e73e17832ff7e563
+  $s$fUniformInput(,) ::
+    Graphics.GPipe.Internal.Uniform.UniformInput
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+       Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V4.V4
+                       (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+                     Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  Main.$s$fBufferFormatUniform1
+                  (Graphics.GPipe.Internal.Uniform.$fUniformInput(,)_$ctoUniform
+                     @ (Linear.V4.V4
+                          (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                     @ (Linear.V3.V3
+                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                     Main.$s$fBufferFormatUniform1
+                     Main.$s$fUniformInput(,)2
+                     Main.$s$fUniformInput(,)1) -}
+12bbbd897bb484596b2d2a8a6c2d8c61
+  $s$fUniformInput(,)1 ::
+    Graphics.GPipe.Internal.Uniform.UniformInput
+      (Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fUniformInput(,)_$s$fUniformInputV3 -}
+600f3e19d39675cc4a3caa31a06145ff
+  $s$fUniformInput(,)2 ::
+    Graphics.GPipe.Internal.Uniform.UniformInput
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Main.$s$fUniformInput(,)_$s$fUniformInputV4 -}
+ef927d13aecbc80f967d48b7f8243cb7
+  $s$fUniformInput(,)_$s$fUniformInputV3 ::
+    Graphics.GPipe.Internal.Uniform.UniformInput
+      (Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V3.V3
+                       (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  Main.$s$fBufferFormat(,)2
+                  (Graphics.GPipe.Internal.Uniform.$fUniformInputV3_$ctoUniform
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Main.$s$fBufferFormat(,)2
+                     Graphics.GPipe.Internal.Uniform.$fUniformInputB31) -}
+7cb7455f90d1e1fcb1616ead2b550654
+  $s$fUniformInput(,)_$s$fUniformInputV4 ::
+    Graphics.GPipe.Internal.Uniform.UniformInput
+      (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Linear.V4.V4
+                       (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float))
+                  Main.$s$fBufferFormat(,)3
+                  (Graphics.GPipe.Internal.Uniform.$fUniformInputV4_$ctoUniform
+                     @ (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float)
+                     Main.$s$fBufferFormat(,)3
+                     Graphics.GPipe.Internal.Uniform.$fUniformInputB41) -}
+6b2ce5e171cdb6c3a10f0baf1a46f714
+  $s$fVertexInput(,) ::
+    Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+      (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+       Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                     Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                  Main.$s$fBufferFormat(,)5
+                  (Graphics.GPipe.Internal.PrimitiveStream.$fVertexInput(,)_$ctoVertex
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Main.$s$fBufferFormat(,)5
+                     Graphics.GPipe.Internal.PrimitiveStream.$fVertexInputB35
+                     Graphics.GPipe.Internal.PrimitiveStream.$fVertexInputB35) -}
+4ab6cdf4b07236094ce110cee6f3498e
+  $s$fVertexInput(,)1 ::
+    Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+      (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+       (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+        Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+                     (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                      Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+                  Main.$s$fVertexInput(,)3
+                  (Graphics.GPipe.Internal.PrimitiveStream.$fVertexInput(,)_$ctoVertex
+                     @ (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float)
+                     @ (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                        Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+                     Main.$s$fVertexInput(,)3
+                     Graphics.GPipe.Internal.PrimitiveStream.$fVertexInputB23
+                     Main.$s$fVertexInput(,)2) -}
+281ea8675c5b40cf170e65b57ab23d69
+  $s$fVertexInput(,)2 ::
+    Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+      (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+       Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fVertexInput(,) -}
+ec8e5b46f732fad97e39f77949cadc5c
+  $s$fVertexInput(,)3 ::
+    Graphics.GPipe.Internal.Buffer.BufferFormat
+      (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+       (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+        Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True) Main.$s$fBufferFormat(,)4 -}
+6a65399179a3849c34df4663dc94c347
+  $swriteTexture2D_w5 ::
+    Linear.V3.V3 Codec.Picture.Types.Pixel8
+    ~ Graphics.GPipe.Internal.Buffer.HostFormat
+        (Graphics.GPipe.Internal.Buffer.Normalized
+           (Graphics.GPipe.Internal.Buffer.B3 GHC.Word.Word8))
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ (Linear.V3.V3 GHC.Word.Word8)
+                   @ (Graphics.GPipe.Internal.Buffer.HostFormat
+                        (Graphics.GPipe.Internal.Buffer.Normalized
+                           (Graphics.GPipe.Internal.Buffer.B3 GHC.Word.Word8)))
+                   @~ (Trans
+                           (Sym (Graphics.GPipe.Internal.Buffer.TFCo:R:HostFormatB30[0]))
+                           (Sym (Graphics.GPipe.Internal.Buffer.TFCo:R:HostFormatNormalized[0]
+                                     <Graphics.GPipe.Internal.Buffer.B3 GHC.Word.Word8>_N)))) -}
+1edc20f4d4cff3c0e45b2534effb51be
+  $w$smakeSide ::
+    Graphics.GPipe.Internal.Expr.VFloat
+    -> Graphics.GPipe.Internal.Expr.VFloat
+    -> Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat
+    -> Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat
+    -> (# Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat,
+          Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat,
+          Linear.V2.V2 Graphics.GPipe.Internal.Expr.VFloat #)
+  {- Arity: 4,
+     Strictness: <S,C(U)><S,C(U)><L,U(U,U,U)><L,1*U(U,U,U)>,
+     Inline: [0] -}
+03e02815978e20ac838597f37505812a
+  $w$sproj ::
+    Linear.V4.V4 (Linear.V4.V4 Graphics.GPipe.Internal.Expr.VFloat)
+    -> Linear.V3.V3 (Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat)
+    -> Graphics.GPipe.Internal.Expr.VFloat
+    -> Graphics.GPipe.Internal.Expr.VFloat
+    -> Graphics.GPipe.Internal.Expr.VFloat
+    -> Linear.V3.V3 Graphics.GPipe.Internal.Expr.VFloat
+    -> t
+    -> (# Linear.V4.V4 Graphics.GPipe.Internal.Expr.VFloat,
+          (Linear.V3.V3 Graphics.GPipe.Internal.FragmentStream.FlatVFloat,
+           t) #)
+  {- Arity: 7,
+     Strictness: <L,1*U(U(C(U),C(U),C(U),C(U)),U(C(U),C(U),C(U),C(U)),U(C(U),C(U),C(U),C(U)),U(C(U),C(U),C(U),C(U)))><L,1*U(U(C(U),C(U),C(U)),U(C(U),C(U),C(U)),U(C(U),C(U),C(U)))><S,C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U))))))><S,C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U))))))><S,C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U))))))><L,U(C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U)))))),C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U)))))),C(C1(C1(C1(U(U,1*U(1*U(1*U(1*U(1*U,U),U),1*U),U)))))))><L,U>,
+     Inline: [0] -}
+e07df34ede3554133aaf4c9bc4deddef
+  $wlight ::
+    (GHC.Num.Num a,
+     GHC.Num.Num
+       (Graphics.GPipe.Internal.Format.Color
+          c
+          (Graphics.GPipe.Internal.Expr.S
+             Graphics.GPipe.Internal.Expr.F
+             (Graphics.GPipe.Internal.Format.ColorElement c))),
+     GHC.Base.Applicative f,
+     Graphics.GPipe.Internal.Format.ColorSampleable c,
+     Graphics.GPipe.Internal.Format.Color
+       c
+       (Graphics.GPipe.Internal.Expr.S
+          Graphics.GPipe.Internal.Expr.F
+          (Graphics.GPipe.Internal.Format.ColorElement c))
+     ~ f a) =>
+    Graphics.GPipe.Internal.Texture.Sampler2D
+      (Graphics.GPipe.Internal.Format.Format c)
+    -> Linear.V3.V3 a
+    -> Linear.V2.V2
+         (Graphics.GPipe.Internal.Expr.S
+            Graphics.GPipe.Internal.Expr.F GHC.Types.Float)
+    -> Graphics.GPipe.Internal.Texture.ColorSample
+         Graphics.GPipe.Internal.Expr.F c
+  {- Arity: 8,
+     Strictness: <L,U(C(C1(U)),A,C(C1(U)),A,A,A,C(U))><S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,A)><L,1*U(A,1*C1(U),A,A,A)><L,U(A,A,C(U),C(C1(U)),A,A,A)><S,1*H><L,1*U(U(U),A,1*U)><L,1*U(U,U,U)><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ c
+                   @ (f :: * -> *)
+                   @ a42
+                   w :: GHC.Num.Num a42
+                   w1 :: GHC.Num.Num
+                           (Graphics.GPipe.Internal.Format.Color
+                              c
+                              (Graphics.GPipe.Internal.Expr.S
+                                 Graphics.GPipe.Internal.Expr.F
+                                 (Graphics.GPipe.Internal.Format.ColorElement c)))
+                   w2 :: GHC.Base.Applicative f
+                   w3 :: Graphics.GPipe.Internal.Format.ColorSampleable c
+                   w4 :: Graphics.GPipe.Internal.Format.Color
+                           c
+                           (Graphics.GPipe.Internal.Expr.S
+                              Graphics.GPipe.Internal.Expr.F
+                              (Graphics.GPipe.Internal.Format.ColorElement c))
+                         ~ f a42
+                   w5 :: Graphics.GPipe.Internal.Texture.Sampler2D
+                           (Graphics.GPipe.Internal.Format.Format c)
+                   ww :: Linear.V3.V3 a42
+                   ww1 :: Linear.V2.V2
+                            (Graphics.GPipe.Internal.Expr.S
+                               Graphics.GPipe.Internal.Expr.F GHC.Types.Float) ->
+                 case w4 of cobox { GHC.Types.Eq# cobox1 ->
+                 GHC.Num.*
+                   @ (Graphics.GPipe.Internal.Texture.ColorSample
+                        Graphics.GPipe.Internal.Expr.F c)
+                   w1
+                   (case w5 of ww2 { Graphics.GPipe.Internal.Texture.Sampler2D ww3 ww4 ww5 ->
+                    Graphics.GPipe.Internal.Texture.$wsample2D
+                      @ c
+                      @ Graphics.GPipe.Internal.Expr.F
+                      w3
+                      ww3
+                      ww5
+                      (Graphics.GPipe.Internal.Texture.$WSampleAuto
+                         @ (Linear.V2.V2
+                              (Graphics.GPipe.Internal.Expr.S
+                                 Graphics.GPipe.Internal.Expr.F GHC.Types.Float)))
+                      (GHC.Base.Nothing
+                         @ (Graphics.GPipe.Internal.Expr.S
+                              Graphics.GPipe.Internal.Expr.F GHC.Types.Float))
+                      (GHC.Base.Nothing @ (Linear.V2.V2 GHC.Types.Int))
+                      ww1 })
+                   (GHC.Base.pure
+                      @ f
+                      w2
+                      @ a42
+                      (case GHC.Num.fromInteger @ a42 w Main.light4 of dt2 { DEFAULT ->
+                       case GHC.Num.fromInteger @ a42 w Main.light2 of dt3 { DEFAULT ->
+                       case ww of ww2 { Linear.V3.V3 ww3 ww4 ww5 ->
+                       Linear.V3.$w$cdot @ a42 w ww3 ww4 ww5 dt2 dt2 dt3 } } }))
+                     `cast`
+                   (Sub (Sym cobox1)) }) -}
+b3d8440f244ae7f770071d3847f17fe6
+  $wloop ::
+    (GHC.Num.Num
+       (Graphics.GPipe.Internal.Format.Color c GHC.Types.Float),
+     Control.Monad.Exception.MonadException m,
+     Graphics.GPipe.Internal.Format.ContextColorFormat c,
+     Control.Monad.IO.Class.MonadIO m,
+     Graphics.GPipe.Internal.Buffer.HostFormat b
+     ~ (Linear.V4.V4 (Linear.V4.V4 GHC.Types.Float),
+        Linear.Matrix.M33 GHC.Types.Float)) =>
+    (Main.ShaderEnvironment
+     -> Graphics.GPipe.Internal.Context.Render
+          os (Graphics.GPipe.Internal.Format.ContextFormat c ds) ())
+    -> Graphics.GPipe.Internal.Context.Render
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat c ds)
+         (Graphics.GPipe.Internal.PrimitiveArray.PrimitiveArray
+            Graphics.GPipe.Internal.PrimitiveArray.Triangles
+            (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+             (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+              Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+    -> Graphics.GPipe.Internal.Buffer.Buffer os b
+    -> GHC.Types.Float
+    -> GHC.IORef.IORef GHC.Types.Float
+    -> Graphics.GPipe.Internal.Context.ContextT
+         Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat c ds)
+         m
+         ()
+  {- Arity: 5,
+     Strictness: <L,1*U(A,A,A,A,A,A,1*C1(U))><L,1*U(1*U,A,A,A)><L,U(U(U(A,A,A,A,C(C1(U)),A,A),A,A),A,A,A,A)><L,U(U,C(U))><L,H>,
+     Inline: [0] -}
+e364e1b5a46074c7ca40b1ccb9c0f27b
+  $wmatrixScale ::
+    GHC.Prim.Float#
+    -> (# Linear.V3.V3 GHC.Types.Float,
+          Linear.V3.V3 GHC.Types.Float,
+          Linear.V3.V3 GHC.Types.Float #)
+  {- Arity: 1, Strictness: <L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Float# ->
+                 case Main.matrixScale1 of wild { Linear.V3.V3 a42 b1 c ->
+                 case a42 of wild1 { Linear.V3.V3 a43 b2 c1 ->
+                 case a43 of wild2 { GHC.Types.F# y ->
+                 case b2 of wild3 { GHC.Types.F# y1 ->
+                 case c1 of wild4 { GHC.Types.F# y2 ->
+                 case b1 of wild5 { Linear.V3.V3 a44 b3 c2 ->
+                 case a44 of wild6 { GHC.Types.F# y3 ->
+                 case b3 of wild7 { GHC.Types.F# y4 ->
+                 case c2 of wild8 { GHC.Types.F# y5 ->
+                 case c of wild9 { Linear.V3.V3 a45 b4 c3 ->
+                 case a45 of wild10 { GHC.Types.F# y6 ->
+                 case b4 of wild11 { GHC.Types.F# y7 ->
+                 case c3 of wild12 { GHC.Types.F# y8 ->
+                 (# Linear.V3.V3
+                      @ GHC.Types.Float
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y))
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y1))
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y2)),
+                    Linear.V3.V3
+                      @ GHC.Types.Float
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y3))
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y4))
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y5)),
+                    Linear.V3.V3
+                      @ GHC.Types.Float
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y6))
+                      (GHC.Types.F# (GHC.Prim.timesFloat# ww y7))
+                      (GHC.Types.F#
+                         (GHC.Prim.timesFloat# ww y8)) #) } } } } } } } } } } } } }) -}
+7c18189a47e53729fb789498ed1970f8
+  $wproj ::
+    (GHC.Base.Functor m, GHC.Base.Functor f, GHC.Num.Num a,
+     Data.Foldable.Foldable r, Linear.Vector.Additive r) =>
+    m (Linear.V4.V4 a)
+    -> f (r Graphics.GPipe.Internal.Expr.VFloat)
+    -> a
+    -> a
+    -> a
+    -> r Graphics.GPipe.Internal.Expr.VFloat
+    -> t
+    -> (# m a,
+          (f Graphics.GPipe.Internal.FragmentStream.FlatVFloat, t) #)
+  {- Arity: 12,
+     Strictness: <L,1*U(1*C1(C1(U)),A)><L,U(C(C1(U)),A)><L,U(C(C1(U)),A,1*U,A,A,A,1*C1(U))><L,1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U),A)><L,U(A,A,A,A,A,A,C(C1(C1(U))))><L,U><L,U><S,U><S,U><S,U><L,U><L,U>,
+     Inline: [0],
+     Unfolding: (\ @ (m :: * -> *)
+                   @ a42
+                   @ t
+                   @ (f :: * -> *)
+                   @ (r :: * -> *)
+                   w :: GHC.Base.Functor m
+                   w1 :: GHC.Base.Functor f
+                   w2 :: GHC.Num.Num a42
+                   w3 :: Data.Foldable.Foldable r
+                   w4 :: Linear.Vector.Additive r
+                   w5 :: m (Linear.V4.V4 a42)
+                   w6 :: f (r Graphics.GPipe.Internal.Expr.VFloat)
+                   ww :: a42
+                   ww1 :: a42
+                   ww2 :: a42
+                   ww3 :: r Graphics.GPipe.Internal.Expr.VFloat
+                   ww4 :: t ->
+                 (# let {
+                      v :: Linear.V4.V4 a42
+                      = case GHC.Num.fromInteger @ a42 w2 Main.light2 of dt2 { DEFAULT ->
+                        Linear.V4.V4 @ a42 ww ww1 ww2 dt2 }
+                    } in
+                    let {
+                      lvl73 :: a42 -> a42 -> a42 = GHC.Num.* @ a42 w2
+                    } in
+                    GHC.Base.fmap
+                      @ m
+                      w
+                      @ (Linear.V4.V4 a42)
+                      @ a42
+                      (\ r1 :: Linear.V4.V4 a42 ->
+                       case r1 of ww5 { Linear.V4.V4 ww6 ww7 ww8 ww9 ->
+                       case v of ww10 { Linear.V4.V4 ww11 ww12 ww13 ww14 ->
+                       case Linear.V4.$w$sliftA2
+                              @ a42
+                              @ a42
+                              @ a42
+                              lvl73
+                              ww6
+                              ww7
+                              ww8
+                              ww9
+                              ww11
+                              ww12
+                              ww13
+                              ww14 of ww15 { (#,,,#) ww16 ww17 ww18 ww19 ->
+                       (GHC.Num.+
+                          @ a42
+                          w2
+                          (GHC.Num.+ @ a42 w2 (GHC.Num.+ @ a42 w2 ww16 ww17) ww18)
+                          ww19)
+                         `cast`
+                       (Sym (Data.Monoid.NTCo:Sum[0] <a42>_R)) } } })
+                        `cast`
+                      (<Linear.V4.V4 a42>_R ->_R Data.Monoid.NTCo:Sum[0] <a42>_R)
+                      w5,
+                    (GHC.Base.fmap
+                       @ f
+                       w1
+                       @ Graphics.GPipe.Internal.Expr.VFloat
+                       @ Graphics.GPipe.Internal.FragmentStream.FlatVFloat
+                       Graphics.GPipe.Internal.FragmentStream.Flat
+                       (Linear.Matrix.!*
+                          @ f
+                          @ r
+                          @ Graphics.GPipe.Internal.Expr.VFloat
+                          w1
+                          w3
+                          w4
+                          (Graphics.GPipe.Internal.Expr.$fNumS1
+                             @ Graphics.GPipe.Internal.Expr.V)
+                          w6
+                          ww3),
+                     ww4) #)) -}
+a3bd64a4797c84ed1f08acf4ecd23241
+  data ShaderEnvironment
+    = ShaderEnvironment {primitives :: Graphics.GPipe.Internal.PrimitiveArray.PrimitiveArray
+                                         Graphics.GPipe.Internal.PrimitiveArray.Triangles
+                                         (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+                                          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+                                           Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)),
+                         rasterOptions :: (Graphics.GPipe.Internal.FragmentStream.Side,
+                                           Graphics.GPipe.Internal.FragmentStream.ViewPort,
+                                           Graphics.GPipe.Internal.FragmentStream.DepthRange)}
+ac9c14511866d439ec1f830ac5b42f95
+  funk ::
+    GHC.IORef.IORef GHC.Types.Float
+    -> Graphics.UI.GLFW.Types.Window
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Types.IO ()
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <S,1*U(U)><L,A><L,A><L,1*U(U)><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.funk1
+                  `cast`
+                (<GHC.IORef.IORef GHC.Types.Float>_R
+                 ->_R <Graphics.UI.GLFW.Types.Window>_R
+                 ->_R <GHC.Types.Double>_R
+                 ->_R <GHC.Types.Double>_R
+                 ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+5c323b896987387bb8238475b08d76fd
+  funk1 ::
+    GHC.IORef.IORef GHC.Types.Float
+    -> Graphics.UI.GLFW.Types.Window
+    -> GHC.Types.Double
+    -> GHC.Types.Double
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <S,1*U(U)><L,A><L,A><L,1*U(U)><L,U>,
+     Unfolding: InlineRule (5, True, False)
+                (\ sch :: GHC.IORef.IORef GHC.Types.Float
+                   ds :: Graphics.UI.GLFW.Types.Window
+                   sx :: GHC.Types.Double
+                   sy :: GHC.Types.Double
+                   eta1 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 case sch
+                        `cast`
+                      (GHC.IORef.NTCo:IORef[0] <GHC.Types.Float>_N) of wild { GHC.STRef.STRef var# ->
+                 case GHC.Prim.readMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Float
+                        var#
+                        eta1 of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   a42 :: GHC.Types.Float
+                   = case ipv1 of wild1 { GHC.Types.F# x ->
+                     case sy of wild2 { GHC.Types.D# x1 ->
+                     GHC.Types.F#
+                       (GHC.Prim.plusFloat#
+                          x
+                          (GHC.Prim.timesFloat# __float 0.1 (GHC.Prim.double2Float# x1))) } }
+                 } in
+                 let {
+                   lvl73 :: (GHC.Types.Float, ()) = (a42, GHC.Tuple.())
+                 } in
+                 case GHC.Prim.atomicModifyMutVar#
+                        @ GHC.Prim.RealWorld
+                        @ GHC.Types.Float
+                        @ (GHC.Types.Float, ())
+                        @ ()
+                        var#
+                        (\ ds2 :: GHC.Types.Float -> lvl73)
+                        ipv of ds2 { (#,#) ipv2 ipv3 ->
+                 case ipv3 of x { () -> (# ipv2, GHC.Tuple.() #) } } } }) -}
+0b54a8e75a055dd817fa16d336eca8f2
+  getJuicyPixel ::
+    Codec.Picture.Types.ColorSpaceConvertible
+      a Codec.Picture.Types.PixelRGB8 =>
+    [Linear.V3.V3 Codec.Picture.Types.Pixel8]
+    -> t -> t1 -> a -> [Linear.V3.V3 Codec.Picture.Types.Pixel8]
+  {- Arity: 5, HasNoCafRefs,
+     Strictness: <L,1*U(A,A,1*C1(U(U,U,U)),A)><L,U><L,A><L,A><L,U>m2,
+     Unfolding: InlineRule (5, True, False)
+                (\ @ t
+                   @ t1
+                   @ a42
+                   $dColorSpaceConvertible :: Codec.Picture.Types.ColorSpaceConvertible
+                                                a42 Codec.Picture.Types.PixelRGB8
+                   xs :: [Linear.V3.V3 Codec.Picture.Types.Pixel8]
+                   _x :: t
+                   _y :: t1
+                   pix :: a42 ->
+                 GHC.Types.:
+                   @ (Linear.V3.V3 Codec.Picture.Types.Pixel8)
+                   (case Codec.Picture.Types.convertPixel
+                           @ a42
+                           @ Codec.Picture.Types.PixelRGB8
+                           $dColorSpaceConvertible
+                           pix of wild { Codec.Picture.Types.PixelRGB8 dt2 dt3 dt4 ->
+                    Linear.V3.V3
+                      @ Codec.Picture.Types.Pixel8
+                      (GHC.Word.W8# dt2)
+                      (GHC.Word.W8# dt3)
+                      (GHC.Word.W8# dt4) })
+                   xs) -}
+44812382ae2285575b3911309a22af77
+  getZ :: Linear.V4.V4 t -> t
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SSSS),1*U(1*H,1*H,U,1*H)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ t ds :: Linear.V4.V4 t ->
+                 case ds of wild { Linear.V4.V4 ds1 ds2 z ds3 -> z }) -}
+8a41ad76408dc18a9a577fe6e9f18a32
+  light ::
+    (GHC.Num.Num a,
+     GHC.Num.Num
+       (Graphics.GPipe.Internal.Format.Color
+          c
+          (Graphics.GPipe.Internal.Expr.S
+             Graphics.GPipe.Internal.Expr.F
+             (Graphics.GPipe.Internal.Format.ColorElement c))),
+     GHC.Base.Applicative f,
+     Graphics.GPipe.Internal.Format.ColorSampleable c,
+     Graphics.GPipe.Internal.Format.Color
+       c
+       (Graphics.GPipe.Internal.Expr.S
+          Graphics.GPipe.Internal.Expr.F
+          (Graphics.GPipe.Internal.Format.ColorElement c))
+     ~ f a) =>
+    Graphics.GPipe.Internal.Texture.Sampler2D
+      (Graphics.GPipe.Internal.Format.Format c)
+    -> (Linear.V3.V3 a,
+        Linear.V2.V2
+          (Graphics.GPipe.Internal.Expr.S
+             Graphics.GPipe.Internal.Expr.F GHC.Types.Float))
+    -> Graphics.GPipe.Internal.Texture.ColorSample
+         Graphics.GPipe.Internal.Expr.F c
+  {- Arity: 7,
+     Strictness: <L,U(C(C1(U)),A,C(C1(U)),A,A,A,C(U))><S(LLC(C(S))LLLL),1*U(A,A,1*C1(C1(U)),A,A,A,A)><L,1*U(A,1*C1(U),A,A,A)><L,U(A,A,C(U),C(C1(U)),A,A,A)><S,1*H><L,1*U(U(U),A,1*U)><S,1*U(1*U(U,U,U),U)>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (7, True, False)
+                (\ @ c
+                   @ (f :: * -> *)
+                   @ a42
+                   w :: GHC.Num.Num a42
+                   w1 :: GHC.Num.Num
+                           (Graphics.GPipe.Internal.Format.Color
+                              c
+                              (Graphics.GPipe.Internal.Expr.S
+                                 Graphics.GPipe.Internal.Expr.F
+                                 (Graphics.GPipe.Internal.Format.ColorElement c)))
+                   w2 :: GHC.Base.Applicative f
+                   w3 :: Graphics.GPipe.Internal.Format.ColorSampleable c
+                   w4 :: Graphics.GPipe.Internal.Format.Color
+                           c
+                           (Graphics.GPipe.Internal.Expr.S
+                              Graphics.GPipe.Internal.Expr.F
+                              (Graphics.GPipe.Internal.Format.ColorElement c))
+                         ~ f a42
+                   w5 :: Graphics.GPipe.Internal.Texture.Sampler2D
+                           (Graphics.GPipe.Internal.Format.Format c)
+                   w6 :: (Linear.V3.V3 a42,
+                          Linear.V2.V2
+                            (Graphics.GPipe.Internal.Expr.S
+                               Graphics.GPipe.Internal.Expr.F GHC.Types.Float)) ->
+                 case w4 of w7 { GHC.Types.Eq# ipv ->
+                 case w6 of ww { (,) ww1 ww2 ->
+                 Main.$wlight @ c @ f @ a42 w w1 w2 w3 w7 w5 ww1 ww2 } }) -}
+6a4b04aa9958a1a7e56402c88e08117e
+  light1 ::
+    Data.SNMap.SNMap
+      (Data.SNMap.SNMapReaderT
+         [GHC.Base.String]
+         (Control.Monad.Trans.State.Lazy.StateT
+            Graphics.GPipe.Internal.Expr.ExprState
+            (Control.Monad.Trans.Writer.Lazy.WriterT
+               GHC.Base.String
+               (Control.Monad.Trans.State.Lazy.StateT
+                  Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+      [GHC.Base.String]
+    -> Graphics.GPipe.Internal.Expr.ExprState
+    -> Graphics.GPipe.Internal.Expr.NextTempVar
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((((GHC.Base.String,
+              Data.SNMap.SNMap
+                (Data.SNMap.SNMapReaderT
+                   [GHC.Base.String]
+                   (Control.Monad.Trans.State.Lazy.StateT
+                      Graphics.GPipe.Internal.Expr.ExprState
+                      (Control.Monad.Trans.Writer.Lazy.WriterT
+                         GHC.Base.String
+                         (Control.Monad.Trans.State.Lazy.StateT
+                            Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+                [GHC.Base.String]),
+             Graphics.GPipe.Internal.Expr.ExprState),
+            [GHC.Types.Char]),
+           Graphics.GPipe.Internal.Expr.NextTempVar) #)
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ eta1 :: Data.SNMap.SNMap
+                             (Data.SNMap.SNMapReaderT
+                                [GHC.Base.String]
+                                (Control.Monad.Trans.State.Lazy.StateT
+                                   Graphics.GPipe.Internal.Expr.ExprState
+                                   (Control.Monad.Trans.Writer.Lazy.WriterT
+                                      GHC.Base.String
+                                      (Control.Monad.Trans.State.Lazy.StateT
+                                         Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+                             [GHC.Base.String]
+                   eta2 :: Graphics.GPipe.Internal.Expr.ExprState
+                   eta3 :: Graphics.GPipe.Internal.Expr.NextTempVar
+                   eta4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta4,
+                    ((((Main.light_eta, eta1), eta2), GHC.Types.[] @ GHC.Types.Char),
+                     eta3) #)) -}
+3b19e196e62dbc9b96aecc1bc16f140a
+  light2 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 1) -}
+134521ec66678a5c08fe4dc30ef11753
+  light3 ::
+    Data.SNMap.SNMap
+      (Data.SNMap.SNMapReaderT
+         [GHC.Base.String]
+         (Control.Monad.Trans.State.Lazy.StateT
+            Graphics.GPipe.Internal.Expr.ExprState
+            (Control.Monad.Trans.Writer.Lazy.WriterT
+               GHC.Base.String
+               (Control.Monad.Trans.State.Lazy.StateT
+                  Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+      [GHC.Base.String]
+    -> Graphics.GPipe.Internal.Expr.ExprState
+    -> Graphics.GPipe.Internal.Expr.NextTempVar
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          ((((GHC.Base.String,
+              Data.SNMap.SNMap
+                (Data.SNMap.SNMapReaderT
+                   [GHC.Base.String]
+                   (Control.Monad.Trans.State.Lazy.StateT
+                      Graphics.GPipe.Internal.Expr.ExprState
+                      (Control.Monad.Trans.Writer.Lazy.WriterT
+                         GHC.Base.String
+                         (Control.Monad.Trans.State.Lazy.StateT
+                            Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+                [GHC.Base.String]),
+             Graphics.GPipe.Internal.Expr.ExprState),
+            [GHC.Types.Char]),
+           Graphics.GPipe.Internal.Expr.NextTempVar) #)
+  {- Arity: 4, Strictness: <L,U><L,U><L,U><L,U>,
+     Unfolding: InlineRule (4, True, False)
+                (\ eta1 :: Data.SNMap.SNMap
+                             (Data.SNMap.SNMapReaderT
+                                [GHC.Base.String]
+                                (Control.Monad.Trans.State.Lazy.StateT
+                                   Graphics.GPipe.Internal.Expr.ExprState
+                                   (Control.Monad.Trans.Writer.Lazy.WriterT
+                                      GHC.Base.String
+                                      (Control.Monad.Trans.State.Lazy.StateT
+                                         Graphics.GPipe.Internal.Expr.NextTempVar GHC.Types.IO))))
+                             [GHC.Base.String]
+                   eta2 :: Graphics.GPipe.Internal.Expr.ExprState
+                   eta3 :: Graphics.GPipe.Internal.Expr.NextTempVar
+                   eta4 :: GHC.Prim.State# GHC.Prim.RealWorld[OneShot] ->
+                 (# eta4,
+                    ((((Main.light_eta1, eta1), eta2), GHC.Types.[] @ GHC.Types.Char),
+                     eta3) #)) -}
+f4dec0ef5330c000bfe59cbfbf89d1b0
+  light4 :: GHC.Integer.Type.Integer
+  {- HasNoCafRefs, Unfolding: (__integer 0) -}
+08a6f2d626d0fbd81acc773ff17c5084
+  light_eta :: GHC.Base.String
+  {- Unfolding: (case GHC.Show.$w$cshowsPrec1
+                        0
+                        Main.light2
+                        (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
+                 GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
+42e2787011f59077b6570c050a190f2e
+  light_eta1 :: GHC.Base.String
+  {- Unfolding: (case GHC.Show.$w$cshowsPrec1
+                        0
+                        Main.light4
+                        (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
+                 GHC.Types.: @ GHC.Types.Char ww3 ww4 }) -}
+d924895c8bf69cb09dbc0279cc4feff9
+  loop ::
+    (GHC.Num.Num
+       (Graphics.GPipe.Internal.Format.Color c GHC.Types.Float),
+     Graphics.GPipe.Internal.Format.DepthRenderable ds,
+     Control.Monad.Exception.MonadException m,
+     Graphics.GPipe.Internal.Format.ContextColorFormat c,
+     Control.Monad.IO.Class.MonadIO m,
+     Graphics.GPipe.Internal.Buffer.HostFormat b
+     ~ (Linear.V4.V4 (Linear.V4.V4 GHC.Types.Float),
+        Linear.Matrix.M33 GHC.Types.Float)) =>
+    (Main.ShaderEnvironment
+     -> Graphics.GPipe.Internal.Context.Render
+          os (Graphics.GPipe.Internal.Format.ContextFormat c ds) ())
+    -> Graphics.GPipe.Internal.Context.Render
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat c ds)
+         (Graphics.GPipe.Internal.PrimitiveArray.PrimitiveArray
+            Graphics.GPipe.Internal.PrimitiveArray.Triangles
+            (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+             (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+              Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+    -> Graphics.GPipe.Internal.Buffer.Buffer os b
+    -> GHC.Types.Float
+    -> GHC.IORef.IORef GHC.Types.Float
+    -> Graphics.GPipe.Internal.Context.ContextT
+         Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat c ds)
+         m
+         ()
+  {- Arity: 6,
+     Strictness: <L,1*U(A,A,A,A,A,A,1*C1(U))><L,A><L,1*U(1*U,A,A,A)><L,U(U(U(A,A,A,A,C(C1(U)),A,A),A,A),A,A,A,A)><L,U(U,C(U))><L,H>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (6, True, True)
+                (\ @ os
+                   @ (m :: * -> *)
+                   @ b
+                   @ c
+                   @ ds
+                   w :: GHC.Num.Num
+                          (Graphics.GPipe.Internal.Format.Color c GHC.Types.Float)
+                   w1 :: Graphics.GPipe.Internal.Format.DepthRenderable ds
+                   w2 :: Control.Monad.Exception.MonadException m
+                   w3 :: Graphics.GPipe.Internal.Format.ContextColorFormat c
+                   w4 :: Control.Monad.IO.Class.MonadIO m
+                   w5 :: Graphics.GPipe.Internal.Buffer.HostFormat b
+                         ~ (Linear.V4.V4 (Linear.V4.V4 GHC.Types.Float),
+                            Linear.Matrix.M33 GHC.Types.Float) ->
+                 Main.$wloop @ os @ m @ b @ c @ ds w w2 w3 w4 w5) -}
+c25e7570512891832a9d0f36057b0057
+  loop1 ::
+    (Main.ShaderEnvironment
+     -> Graphics.GPipe.Internal.Context.Render
+          os
+          (Graphics.GPipe.Internal.Format.ContextFormat
+             Graphics.GPipe.Internal.Format.RGBFloat
+             Graphics.GPipe.Internal.Format.Depth)
+          ())
+    -> Graphics.GPipe.Internal.Context.Render
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat
+            Graphics.GPipe.Internal.Format.RGBFloat
+            Graphics.GPipe.Internal.Format.Depth)
+         (Graphics.GPipe.Internal.PrimitiveArray.PrimitiveArray
+            Graphics.GPipe.Internal.PrimitiveArray.Triangles
+            (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+             (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+              Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+    -> Graphics.GPipe.Internal.Buffer.Buffer
+         os
+         (Graphics.GPipe.Internal.Buffer.Uniform
+            (Linear.V4.V4 (Graphics.GPipe.Internal.Buffer.B4 GHC.Types.Float),
+             Linear.V3.V3 (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float)))
+    -> GHC.Types.Float
+    -> GHC.IORef.IORef GHC.Types.Float
+    -> Graphics.GPipe.Internal.Context.ContextT
+         Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+         os
+         (Graphics.GPipe.Internal.Format.ContextFormat
+            Graphics.GPipe.Internal.Format.RGBFloat
+            Graphics.GPipe.Internal.Format.Depth)
+         GHC.Types.IO
+         ()
+  {- Arity: 5,
+     Strictness: <L,C(C1(C1(C1(U))))><L,C(C1(C1(U(U,1*U(1*U,U)))))><L,U(U(U),U(U),U(U),A,C(C1(C1(U(U,A)))))><L,U(U)><L,U(U)> -}
+77f0df447c6b91cdd64ee7d0348ff41f
+  main :: GHC.Types.IO ()
+  {- Unfolding: (Main.main3
+                   (Graphics.GPipe.Context.GLFW.newContext1
+                      @ Graphics.GPipe.Internal.Format.RGBFloat
+                      @ Graphics.GPipe.Internal.Format.Depth)
+                     `cast`
+                   (<Graphics.GPipe.Internal.Format.ContextFormat
+                       Graphics.GPipe.Internal.Format.RGBFloat
+                       Graphics.GPipe.Internal.Format.Depth>_R
+                    ->_R Sym (GHC.Types.NTCo:IO[0]
+                                  <Graphics.GPipe.Internal.Context.ContextHandle
+                                     Graphics.GPipe.Context.GLFW.Resource.GLFWWindow>_R))
+                   Main.main2
+                   Main.main1
+                     `cast`
+                   (forall os.
+                    Trans
+                        (<(Graphics.GPipe.Internal.Context.ContextHandle
+                             Graphics.GPipe.Context.GLFW.Resource.GLFWWindow,
+                           (Graphics.GPipe.Internal.Context.ContextData,
+                            Graphics.GPipe.Internal.Context.SharedContextDatas))>_R
+                         ->_R Sym (GHC.Types.NTCo:IO[0] <()>_R))
+                        (Trans
+                             (Sym (Control.Monad.Trans.Reader.NTCo:ReaderT[0]
+                                       <(Graphics.GPipe.Internal.Context.ContextHandle
+                                           Graphics.GPipe.Context.GLFW.Resource.GLFWWindow,
+                                         (Graphics.GPipe.Internal.Context.ContextData,
+                                          Graphics.GPipe.Internal.Context.SharedContextDatas))>_R
+                                       <GHC.Types.IO>_R
+                                       <()>_N))
+                             (Sym (Graphics.GPipe.Internal.Context.NTCo:ContextT[0]
+                                       <Graphics.GPipe.Context.GLFW.Resource.GLFWWindow>_R
+                                       <os>_P
+                                       <Graphics.GPipe.Internal.Format.ContextFormat
+                                          Graphics.GPipe.Internal.Format.RGBFloat
+                                          Graphics.GPipe.Internal.Format.Depth>_P) <GHC.Types.IO>_N <()>_N)))) -}
+cf9c6facbae5aa473db3b199a31bc6c8
+  main1 ::
+    (Graphics.GPipe.Internal.Context.ContextHandle
+       Graphics.GPipe.Context.GLFW.Resource.GLFWWindow,
+     (Graphics.GPipe.Internal.Context.ContextData,
+      Graphics.GPipe.Internal.Context.SharedContextDatas))
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2 -}
+ceb97a4b31365ee8176636f4c80d1336
+  main2 ::
+    Graphics.GPipe.Internal.Format.ContextFormat
+      Graphics.GPipe.Internal.Format.RGBFloat
+      Graphics.GPipe.Internal.Format.Depth
+  {- Unfolding: (Graphics.GPipe.Internal.Format.ContextFormatColorDepth
+                   @ Graphics.GPipe.Internal.Format.RGBFloat
+                   @ Graphics.GPipe.Internal.Format.Depth
+                   @~ <Graphics.GPipe.Internal.Format.Depth>_N
+                   Graphics.GPipe.Internal.Format.$fContextColorFormatRGBFloat
+                   Graphics.GPipe.Internal.Format.$WSRGB8
+                   Graphics.GPipe.Internal.Format.$WDepth16) -}
+cdf03e1ccbb4c67b99354dd622ec83cc
+  main3 ::
+    Graphics.GPipe.Internal.Context.ContextFactory
+      Graphics.GPipe.Internal.Format.RGBFloat
+      Graphics.GPipe.Internal.Format.Depth
+      Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+    -> Graphics.GPipe.Internal.Format.ContextFormat
+         Graphics.GPipe.Internal.Format.RGBFloat
+         Graphics.GPipe.Internal.Format.Depth
+    -> (forall os.
+        Graphics.GPipe.Internal.Context.ContextT
+          Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+          os
+          (Graphics.GPipe.Internal.Format.ContextFormat
+             Graphics.GPipe.Internal.Format.RGBFloat
+             Graphics.GPipe.Internal.Format.Depth)
+          GHC.Types.IO
+          ())
+    -> GHC.Types.IO ()
+  {- Unfolding: (Graphics.GPipe.Internal.Context.$wrunContextT
+                   @ Graphics.GPipe.Internal.Format.RGBFloat
+                   @ Graphics.GPipe.Internal.Format.Depth
+                   @ Graphics.GPipe.Context.GLFW.Resource.GLFWWindow
+                   @ GHC.Types.IO
+                   @ ()
+                   Control.Monad.Exception.$fMonadAsyncExceptionIO) -}
+98964549e534ee2667ead523ac2cf847
+  main4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1 @ () Main.main) -}
+79bfee5200569b1862247ff3db1b08b1
+  makeSide ::
+    GHC.Real.Fractional a =>
+    (Linear.V2.V2 a, (Linear.V3.V3 a, Linear.V3.V3 a))
+    -> (Linear.V3.V3 a, Linear.V3.V3 a, Linear.V2.V2 a)
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U(1*U,U,A,A)> -}
+38d14e52df1aad2bc101846782b4c010
+  matrixScale :: GHC.Types.Float -> Linear.Matrix.M33 GHC.Types.Float
+  {- Arity: 1, Strictness: <S,1*U(U)>m, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: GHC.Types.Float ->
+                 case w of ww { GHC.Types.F# ww1 ->
+                 case Main.$wmatrixScale ww1 of ww2 { (#,,#) ww3 ww4 ww5 ->
+                 Linear.V3.V3 @ (Linear.V3.V3 GHC.Types.Float) ww3 ww4 ww5 } }) -}
+e6645f5c73b61ff28dd953b9d7763460
+  matrixScale1 :: Linear.V3.V3 (Linear.V3.V3 GHC.Types.Float)
+  {- Unfolding: (Linear.Matrix.identity
+                   @ Linear.V3.V3
+                   @ GHC.Types.Float
+                   GHC.Float.$fNumFloat
+                   Linear.V3.$fTraversableV3
+                   Linear.V3.$fApplicativeV3) -}
+1fdd12e1a9567320eae372df8af6ac83
+  primitives ::
+    Main.ShaderEnvironment
+    -> Graphics.GPipe.Internal.PrimitiveArray.PrimitiveArray
+         Graphics.GPipe.Internal.PrimitiveArray.Triangles
+         (Graphics.GPipe.Internal.Buffer.B2 GHC.Types.Float,
+          (Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float,
+           Graphics.GPipe.Internal.Buffer.B3 GHC.Types.Float))
+  RecSel Main.ShaderEnvironment
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.ShaderEnvironment ->
+                 case ds of wild { Main.ShaderEnvironment ds1 ds2 -> ds1 }) -}
+90c998d2e724a485cb6cec0ef727d0bd
+  proj ::
+    (GHC.Base.Functor m, GHC.Base.Functor f, GHC.Num.Num a,
+     Data.Foldable.Foldable r, Linear.Vector.Additive r) =>
+    m (Linear.V4.V4 a)
+    -> f (r Graphics.GPipe.Internal.Expr.VFloat)
+    -> (Linear.V3.V3 a, r Graphics.GPipe.Internal.Expr.VFloat, t)
+    -> (m a, (f Graphics.GPipe.Internal.FragmentStream.FlatVFloat, t))
+  {- Arity: 8,
+     Strictness: <L,1*U(1*C1(C1(U)),A)><L,U(C(C1(U)),A)><L,U(C(C1(U)),A,1*U,A,A,A,1*C1(U))><L,1*U(A,A,A,A,A,A,A,A,A,A,A,A,A,A,1*C1(U),A)><L,U(A,A,A,A,A,A,C(C1(C1(U))))><L,U><L,U><S(S(SSS)LL),1*U(1*U(U,U,U),U,U)>m,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (8, True, False)
+                (\ @ (m :: * -> *)
+                   @ a42
+                   @ t
+                   @ (f :: * -> *)
+                   @ (r :: * -> *)
+                   w :: GHC.Base.Functor m
+                   w1 :: GHC.Base.Functor f
+                   w2 :: GHC.Num.Num a42
+                   w3 :: Data.Foldable.Foldable r
+                   w4 :: Linear.Vector.Additive r
+                   w5 :: m (Linear.V4.V4 a42)
+                   w6 :: f (r Graphics.GPipe.Internal.Expr.VFloat)
+                   w7 :: (Linear.V3.V3 a42,
+                          r Graphics.GPipe.Internal.Expr.VFloat,
+                          t) ->
+                 case w7 of ww { (,,) ww1 ww2 ww3 ->
+                 case ww1 of ww4 { Linear.V3.V3 ww5 ww6 ww7 ->
+                 case Main.$wproj
+                        @ m
+                        @ a42
+                        @ t
+                        @ f
+                        @ r
+                        w
+                        w1
+                        w2
+                        w3
+                        w4
+                        w5
+                        w6
+                        ww5
+                        ww6
+                        ww7
+                        ww2
+                        ww3 of ww8 { (#,#) ww9 ww10 ->
+                 (ww9, ww10) } } }) -}
+3395beaa16871642d3acc15185498ede
+  rasterOptions ::
+    Main.ShaderEnvironment
+    -> (Graphics.GPipe.Internal.FragmentStream.Side,
+        Graphics.GPipe.Internal.FragmentStream.ViewPort,
+        Graphics.GPipe.Internal.FragmentStream.DepthRange)
+  RecSel Main.ShaderEnvironment
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.ShaderEnvironment ->
+                 case ds of wild { Main.ShaderEnvironment ds1 ds2 -> ds2 }) -}
+"SPEC/Main $fBufferFormat(,) @ (B2 Float) @ (B3 Float, B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                      (Graphics.GPipe.Internal.Buffer.B2
+                                                                                                         GHC.Types.Float)
+                                                                                  $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                       (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                          GHC.Types.Float,
+                                                                                                        Graphics.GPipe.Internal.Buffer.B3
+                                                                                                          GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,) @ (Graphics.GPipe.Internal.Buffer.B2
+                                                        GHC.Types.Float)
+                                                   @ (Graphics.GPipe.Internal.Buffer.B3
+                                                        GHC.Types.Float,
+                                                      Graphics.GPipe.Internal.Buffer.B3
+                                                        GHC.Types.Float)
+                                                   $dBufferFormat
+                                                   $dBufferFormat1
+  = Main.$s$fBufferFormat(,)4
+"SPEC/Main $fBufferFormat(,) @ (B3 Float) @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                            (Graphics.GPipe.Internal.Buffer.B3
+                                                                                               GHC.Types.Float)
+                                                                        $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                             (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,) @ (Graphics.GPipe.Internal.Buffer.B3
+                                                        GHC.Types.Float)
+                                                   @ (Graphics.GPipe.Internal.Buffer.B3
+                                                        GHC.Types.Float)
+                                                   $dBufferFormat
+                                                   $dBufferFormat1
+  = Main.$s$fBufferFormat(,)
+"SPEC/Main $fBufferFormat(,) @ (V4 (B4 Float)) @ (V3 (B3 Float))" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                      (Linear.V4.V4
+                                                                                                         (Graphics.GPipe.Internal.Buffer.B4
+                                                                                                            GHC.Types.Float))
+                                                                                  $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                       (Linear.V3.V3
+                                                                                                          (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                             GHC.Types.Float))
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,) @ (Linear.V4.V4
+                                                        (Graphics.GPipe.Internal.Buffer.B4
+                                                           GHC.Types.Float))
+                                                   @ (Linear.V3.V3
+                                                        (Graphics.GPipe.Internal.Buffer.B3
+                                                           GHC.Types.Float))
+                                                   $dBufferFormat
+                                                   $dBufferFormat1
+  = Main.$s$fBufferFormat(,)1
+"SPEC/Main $fBufferFormat(,)_$cgetGlPaddedFormat @ (B2 Float) @ (B3
+                                                                  Float,
+                                                                B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                                                                                                            (Graphics.GPipe.Internal.Buffer.B2
+                                                                                                                                                                                                                                                               GHC.Types.Float)
+                                                                                                                                                                                                                                        $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                                                                                                             (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                                                                                                                GHC.Types.Float,
+                                                                                                                                                                                                                                                              Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                                                                                                                GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cgetGlPaddedFormat @ (Graphics.GPipe.Internal.Buffer.B2
+                                                                            GHC.Types.Float)
+                                                                       @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                            GHC.Types.Float,
+                                                                          Graphics.GPipe.Internal.Buffer.B3
+                                                                            GHC.Types.Float)
+                                                                       $dBufferFormat
+                                                                       $dBufferFormat1
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat1
+"SPEC/Main $fBufferFormat(,)_$cgetGlPaddedFormat @ (B3 Float) @ (B3
+                                                                  Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                                  (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                                     GHC.Types.Float)
+                                                                                                                                                              $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                                   (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                                      GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cgetGlPaddedFormat @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                            GHC.Types.Float)
+                                                                       @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                            GHC.Types.Float)
+                                                                       $dBufferFormat
+                                                                       $dBufferFormat1
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cgetGlPaddedFormat
+"SPEC/Main $fBufferFormat(,)_$cpeekPixel @ (B2 Float) @ (B3 Float,
+                                                        B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                          (Graphics.GPipe.Internal.Buffer.B2
+                                                                                                                                                                             GHC.Types.Float)
+                                                                                                                                                      $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                                                                                           (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                              GHC.Types.Float,
+                                                                                                                                                                            Graphics.GPipe.Internal.Buffer.B3
+                                                                                                                                                                              GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cpeekPixel @ (Graphics.GPipe.Internal.Buffer.B2
+                                                                    GHC.Types.Float)
+                                                               @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                    GHC.Types.Float,
+                                                                  Graphics.GPipe.Internal.Buffer.B3
+                                                                    GHC.Types.Float)
+                                                               $dBufferFormat
+                                                               $dBufferFormat1
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel1
+"SPEC/Main $fBufferFormat(,)_$cpeekPixel @ (B3 Float) @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                        (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                           GHC.Types.Float)
+                                                                                    $dBufferFormat1 :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                         (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                            GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormat(,)_$cpeekPixel @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                    GHC.Types.Float)
+                                                               @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                    GHC.Types.Float)
+                                                               $dBufferFormat
+                                                               $dBufferFormat1
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormat(,)_$cpeekPixel
+"SPEC/Main $fBufferFormatUniform @ (V4 (B4 Float), V3 (B3 Float))" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                       (Linear.V4.V4
+                                                                                                          (Graphics.GPipe.Internal.Buffer.B4
+                                                                                                             GHC.Types.Float),
+                                                                                                        Linear.V3.V3
+                                                                                                          (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                             GHC.Types.Float))
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatUniform @ (Linear.V4.V4
+                                                            (Graphics.GPipe.Internal.Buffer.B4
+                                                               GHC.Types.Float),
+                                                          Linear.V3.V3
+                                                            (Graphics.GPipe.Internal.Buffer.B3
+                                                               GHC.Types.Float))
+                                                       $dBufferFormat
+  = Main.$s$fBufferFormatUniform
+"SPEC/Main $fBufferFormatV3 @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                              (Graphics.GPipe.Internal.Buffer.B3
+                                                                                 GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV3 @ (Graphics.GPipe.Internal.Buffer.B3
+                                                       GHC.Types.Float)
+                                                  $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV3
+"SPEC/Main $fBufferFormatV3_$cgetGlPaddedFormat @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                  (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                     GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV3_$cgetGlPaddedFormat @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                           GHC.Types.Float)
+                                                                      $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV3_$cgetGlPaddedFormat
+"SPEC/Main $fBufferFormatV3_$cpeekPixel @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                          (Graphics.GPipe.Internal.Buffer.B3
+                                                                                             GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV3_$cpeekPixel @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                   GHC.Types.Float)
+                                                              $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV3_$cpeekPixel
+"SPEC/Main $fBufferFormatV4 @ (B4 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                              (Graphics.GPipe.Internal.Buffer.B4
+                                                                                 GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV4 @ (Graphics.GPipe.Internal.Buffer.B4
+                                                       GHC.Types.Float)
+                                                  $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV4
+"SPEC/Main $fBufferFormatV4_$cgetGlPaddedFormat @ (B4 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                  (Graphics.GPipe.Internal.Buffer.B4
+                                                                                                     GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV4_$cgetGlPaddedFormat @ (Graphics.GPipe.Internal.Buffer.B4
+                                                                           GHC.Types.Float)
+                                                                      $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV4_$cgetGlPaddedFormat
+"SPEC/Main $fBufferFormatV4_$cpeekPixel @ (B4 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                          (Graphics.GPipe.Internal.Buffer.B4
+                                                                                             GHC.Types.Float)
+  Graphics.GPipe.Internal.Buffer.$fBufferFormatV4_$cpeekPixel @ (Graphics.GPipe.Internal.Buffer.B4
+                                                                   GHC.Types.Float)
+                                                              $dBufferFormat
+  = Main.$s$fBufferFormat(,)_$s$fBufferFormatV4_$cpeekPixel
+"SPEC/Main $fUniformInput(,) @ (V4 (B4 Float)) @ (V3 (B3 Float))" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                      (Linear.V4.V4
+                                                                                                         (Graphics.GPipe.Internal.Buffer.B4
+                                                                                                            GHC.Types.Float),
+                                                                                                       Linear.V3.V3
+                                                                                                         (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                            GHC.Types.Float))
+                                                                                  $dUniformInput :: Graphics.GPipe.Internal.Uniform.UniformInput
+                                                                                                      (Linear.V4.V4
+                                                                                                         (Graphics.GPipe.Internal.Buffer.B4
+                                                                                                            GHC.Types.Float))
+                                                                                  $dUniformInput1 :: Graphics.GPipe.Internal.Uniform.UniformInput
+                                                                                                       (Linear.V3.V3
+                                                                                                          (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                             GHC.Types.Float))
+  Graphics.GPipe.Internal.Uniform.$fUniformInput(,) @ (Linear.V4.V4
+                                                         (Graphics.GPipe.Internal.Buffer.B4
+                                                            GHC.Types.Float))
+                                                    @ (Linear.V3.V3
+                                                         (Graphics.GPipe.Internal.Buffer.B3
+                                                            GHC.Types.Float))
+                                                    $dBufferFormat
+                                                    $dUniformInput
+                                                    $dUniformInput1
+  = Main.$s$fUniformInput(,)
+"SPEC/Main $fUniformInputV3 @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                              (Linear.V3.V3
+                                                                                 (Graphics.GPipe.Internal.Buffer.B3
+                                                                                    GHC.Types.Float))
+                                                          $dUniformInput :: Graphics.GPipe.Internal.Uniform.UniformInput
+                                                                              (Graphics.GPipe.Internal.Buffer.B3
+                                                                                 GHC.Types.Float)
+  Graphics.GPipe.Internal.Uniform.$fUniformInputV3 @ (Graphics.GPipe.Internal.Buffer.B3
+                                                        GHC.Types.Float)
+                                                   $dBufferFormat
+                                                   $dUniformInput
+  = Main.$s$fUniformInput(,)_$s$fUniformInputV3
+"SPEC/Main $fUniformInputV4 @ (B4 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                              (Linear.V4.V4
+                                                                                 (Graphics.GPipe.Internal.Buffer.B4
+                                                                                    GHC.Types.Float))
+                                                          $dUniformInput :: Graphics.GPipe.Internal.Uniform.UniformInput
+                                                                              (Graphics.GPipe.Internal.Buffer.B4
+                                                                                 GHC.Types.Float)
+  Graphics.GPipe.Internal.Uniform.$fUniformInputV4 @ (Graphics.GPipe.Internal.Buffer.B4
+                                                        GHC.Types.Float)
+                                                   $dBufferFormat
+                                                   $dUniformInput
+  = Main.$s$fUniformInput(,)_$s$fUniformInputV4
+"SPEC/Main $fVertexInput(,) @ (B2 Float) @ (B3 Float, B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                                     (Graphics.GPipe.Internal.Buffer.B2
+                                                                                                        GHC.Types.Float,
+                                                                                                      (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                         GHC.Types.Float,
+                                                                                                       Graphics.GPipe.Internal.Buffer.B3
+                                                                                                         GHC.Types.Float))
+                                                                                 $dVertexInput :: Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+                                                                                                    (Graphics.GPipe.Internal.Buffer.B2
+                                                                                                       GHC.Types.Float)
+                                                                                 $dVertexInput1 :: Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+                                                                                                     (Graphics.GPipe.Internal.Buffer.B3
+                                                                                                        GHC.Types.Float,
+                                                                                                      Graphics.GPipe.Internal.Buffer.B3
+                                                                                                        GHC.Types.Float)
+  Graphics.GPipe.Internal.PrimitiveStream.$fVertexInput(,) @ (Graphics.GPipe.Internal.Buffer.B2
+                                                                GHC.Types.Float)
+                                                           @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                GHC.Types.Float,
+                                                              Graphics.GPipe.Internal.Buffer.B3
+                                                                GHC.Types.Float)
+                                                           $dBufferFormat
+                                                           $dVertexInput
+                                                           $dVertexInput1
+  = Main.$s$fVertexInput(,)1
+"SPEC/Main $fVertexInput(,) @ (B3 Float) @ (B3 Float)" [ALWAYS] forall $dBufferFormat :: Graphics.GPipe.Internal.Buffer.BufferFormat
+                                                                                           (Graphics.GPipe.Internal.Buffer.B3
+                                                                                              GHC.Types.Float,
+                                                                                            Graphics.GPipe.Internal.Buffer.B3
+                                                                                              GHC.Types.Float)
+                                                                       $dVertexInput :: Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+                                                                                          (Graphics.GPipe.Internal.Buffer.B3
+                                                                                             GHC.Types.Float)
+                                                                       $dVertexInput1 :: Graphics.GPipe.Internal.PrimitiveStream.VertexInput
+                                                                                           (Graphics.GPipe.Internal.Buffer.B3
+                                                                                              GHC.Types.Float)
+  Graphics.GPipe.Internal.PrimitiveStream.$fVertexInput(,) @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                GHC.Types.Float)
+                                                           @ (Graphics.GPipe.Internal.Buffer.B3
+                                                                GHC.Types.Float)
+                                                           $dBufferFormat
+                                                           $dVertexInput
+                                                           $dVertexInput1
+  = Main.$s$fVertexInput(,)
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
